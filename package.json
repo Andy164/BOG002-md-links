@@ -1,4 +1,20 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/eslint-parser": "^7.14.2",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "@babel/eslint-plugin": "^7.13.16"
+  }
 }
