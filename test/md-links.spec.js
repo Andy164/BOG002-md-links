@@ -81,7 +81,7 @@ describe("mdLinks", () => {
     });
   });
 
-  it("should return an array of objects with .................", () => {
+  it("should return an array of objects with validate false", () => {
     expect.assertions(1);
     return mdLinks(".\\test", { validate: false }).then((r) => {
       expect(Array.isArray(r)).toBeTruthy();
