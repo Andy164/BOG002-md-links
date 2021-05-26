@@ -1,8 +1,13 @@
 {
-  "name": "md-links",
+  "name": "@andy164/md-links",
   "version": "0.1.0",
+  "description": "mdLinks extracts and validates markdown file links.",
   "type": "module",
   "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andy164/BOG002-md-links.git"
+  },
   "bin": {
     "md-links": "bin/cli.js"
   },
@@ -30,5 +35,8 @@
   },
   "dependencies": {
     "axios": "^0.21.1"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
