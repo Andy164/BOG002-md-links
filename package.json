@@ -1,5 +1,6 @@
 {
   "name": "@andy164/md-links",
+  "author": "Tatiana Roa <apenarandao@ufpso.edu.co>",
   "version": "0.1.0",
   "description": "mdLinks extracts and validates markdown file links.",
   "type": "module",
