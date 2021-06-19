@@ -5,8 +5,7 @@
     "jest/globals": true
   },
   "extends": ["airbnb-base", "prettier"],
-  "plugins": ["jest", "@babel"],
-  "parser": "@babel/eslint-parser",
+  "plugins": ["jest"],
   "parserOptions": {
     "ecmaVersion": 12,
     "sourceType": "module"
@@ -18,11 +17,5 @@
     "jest/prefer-to-have-length": "warn",
     "jest/valid-expect": "error",
     "import/extensions": ["error", "always"]
-  },
-  "overrides": [
-    {
-      "files": ["lib/*.js"],
-      "parser": "@babel/eslint-parser"
-    }
-  ]
+  }
 }

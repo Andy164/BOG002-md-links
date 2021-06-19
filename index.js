@@ -9,4 +9,5 @@ const mdLinks = (path, options = { validate: false }) =>
       else validateLinks(result).then((newInfo) => res(newInfo));
     });
   });
+
 export default mdLinks;
