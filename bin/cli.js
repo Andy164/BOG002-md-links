@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 import yargs from "yargs";
+// eslint-disable-next-line import/extensions
 import { hideBin } from "yargs/helpers";
 import mdLinks from "../index.js";
 
-const version = "2.0.0";
+const version = "2.0.1";
 const [path] = process.argv.slice(2);
 const yargsFn = yargs(hideBin(process.argv));
 

@@ -1,6 +1,6 @@
 {
   "name": "@andy164/md-links",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "mdLinks extracts and validates markdown file links.",
   "type": "module",
   "main": "./index.js",
