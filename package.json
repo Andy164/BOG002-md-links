@@ -15,8 +15,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest --coverage --verbose",
-    "build": "babel source -d lib"
+    "test": "jest --coverage --verbose"
   },
   "devDependencies": {
     "eslint": "^7.29.0",
@@ -27,6 +26,9 @@
     "jest": "^26.6.3"
   },
   "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "babel-jest": "^27.0.2",
     "yargs": "^17.0.1"
   },
   "publishConfig": {
