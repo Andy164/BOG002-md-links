@@ -13,7 +13,7 @@ In the same directory as your `package.json` file, create or edit an `.npmrc` fi
 ### As a dependency in your project
 
 ```
-npm install @andy164/md-links@1.0.0
+npm install @andy164/md-links@2.0.1
 ```
 
 ## Usage
