@@ -2,14 +2,6 @@
 
 Markdown Links extracts and validates markdown file links (.md). You will also be able to obtain the statistics of the total of links, and the number of unique and broken links.
 
-## Installation
-
-In the same directory as your `package.json` file, create or edit an `.npmrc` file to include this line:
-
-```
-@andy164:registry=https://npm.pkg.github.com
-```
-
 ### As a dependency in your project
 
 ```
